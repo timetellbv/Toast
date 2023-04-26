@@ -248,7 +248,7 @@ namespace GlobalToast
         /// </summary>
         public Toast SetDismissCallback(Action callback)
         {
-            DismissCallBack = callback;
+            DismissCallback = callback;
             return this;
         }
 
